@@ -34,3 +34,5 @@ keymap.set('n', '<leader>fg', ":Telescope live_grep<CR>")
 keymap.set('n', '<leader>fb', ":Telescope buffers<CR>")
 keymap.set('n', '<leader>fh', ":Telescope help_tags<CR>")
 
+-- - Plugin Toggleleterm
+keymap.set("n", "tv", ":ToggleTerm size=40 direction=horizontal name=terminal<CR>")
